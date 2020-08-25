@@ -1,0 +1,25 @@
+{
+  "name": "ibot",
+  "version": "1.0.0",
+  "description": "iDawg's Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloandanar/iBot.git"
+  },
+  "keywords": [
+    "iDawg"
+  ],
+  "author": "Carlo Andanar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloandanar/iBot/issues"
+  },
+  "homepage": "https://github.com/carloandanar/iBot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}

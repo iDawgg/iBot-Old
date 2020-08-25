@@ -1,0 +1,16 @@
+	if(message.content === 'beep') {
+		const embed = new Discord.MessageEmbed()
+			.setColor('#00e59c')
+			.setTitle('Welcome to iChat!')
+			.setAuthor('iChat')
+			.setDescription('This is a place where you can chat with friends or new people!')
+			.setThumbnail('https://i.imgur.com/W27sCDm.png')
+			.addFields(
+				{ name: 'Rules', value: '-Don\'t be a dick.\n-Don\'t discuss politics, controversial drama, or self harm/suicide.\n-Don\'t harrass other members.\n-Don\'t spam, mic and text.\n-No heated arguments with other people in chat.\n-No adult (18+), explicit, or NSFW content.\n-No racism or any overall degrading messages or content.\n-No offensive names.\n-Please try to stay on-topic in channels\n-Please use English.\n-Please keep everything within Discord\'s [ToS](https://discordapp.com/terms) and [Guidelines.](https://discordapp.com/guidelines)\n-Listen and respect the staff.\n\n__Punishments are of the staff members\' discretion.__\nWe want to make this server the best it is, so follow the rules!' },
+				{ name: 'Socials:', value: '<:youtube:746782239269978184>  [Youtube](https://www.youtube.com/channel/UCRYlwNdB9xa-CSTb8AT6Djw/)\n<:twitch:746782220911640688>  [Twitch](https://www.twitch.tv/idawg_)\n<:instagram:746782213797838928>   [Instagram](https://www.instagram.com/carloandanar/)\n<:twitter:746782203358478367>  [Twitter](https://twitter.com/iDawg__)\n<:reddit:746782183829536928>  [Reddit](https://www.reddit.com/user/iDawg_)\n<:steam:746781479312556182>  [Steam](https://steamcommunity.com/id/iDawg/)\n<:spotify:746781445200281640>  [Spotify](https://open.spotify.com/user/carloandanar)', inline: true },
+				{ name: 'Server Invite:', value: 'https://discord.gg/5gMpPjT', inline: true },
+			)
+			.setFooter('Have fun and get chatting! ~iDawg');
+
+		message.channel.send(embed);
+	}
