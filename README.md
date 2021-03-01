@@ -1,2 +1,2 @@
-# iBot
-iDawg's Bot
+# iBot - Old
+probably useless now lol
