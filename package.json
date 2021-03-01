@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/carloandanar/iBot-Old/issues"
   },
-  "homepage": "https://github.com/carloandanar/iBot#readme",
+  "homepage": "https://github.com/carloandanar/iBot-Old#readme",
   "dependencies": {
     "discord.js": "^12.3.1"
   }
