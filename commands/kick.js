@@ -5,11 +5,11 @@ module.exports = {
 	guildOnly: true,
 	execute(message) {
 		if (!message.mentions.users.size) {
-			return message.reply('you need to tag a user in order to kick them you idiot piece of bitch');
+			return message.reply('you didnt tag a person');
 		}
 
 		const taggedUser = message.mentions.users.first();
 
-		message.channel.send(`**You wanted to kick:** __${taggedUser.username}#${taggedUser.discriminator}__ but no you can't right now you dumb fucking idiot you don't even know how to code to kick yet you dumb fuck clown`);
+		message.channel.send(`**You wanted to kick:** __${taggedUser.username}#${taggedUser.discriminator}__ but i dont know how to code that rn lol`);
 	},
 };
